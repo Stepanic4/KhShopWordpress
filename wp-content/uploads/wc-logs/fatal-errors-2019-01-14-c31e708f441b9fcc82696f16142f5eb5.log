@@ -1,0 +1,8 @@
+2019-01-14T11:57:00+00:00 CRITICAL Call to undefined function shop_isle_big_title_section_display_button() в C:\Users\Stepa\Desktop\OSPanel\domains\OriginKharkiv\wp-content\themes\kharkivshop\inc\sections\shop_isle_big_title_section.php на строке 52
+
+2019-01-14T11:57:36+00:00 CRITICAL require_once(): Failed opening required 'C:\Users\Stepa\Desktop\OSPanel\domains\OriginKharkiv/wp-content/themes/kharkivshop/inc/sections/shop_isle_big_title_section.php' (include_path='.;c:/users/stepa/desktop/ospanel/modules/php/PHP-5.5;c:/users/stepa/desktop/ospanel/modules/php/PHP-5.5/PEAR/pear') в C:\Users\Stepa\Desktop\OSPanel\domains\OriginKharkiv\wp-includes\template.php на строке 688
+
+2019-01-14T11:58:28+00:00 CRITICAL require_once(): Failed opening required 'C:\Users\Stepa\Desktop\OSPanel\domains\OriginKharkiv/wp-content/themes/kharkivshop/inc/sections/shop_isle_big_title_section.php' (include_path='.;c:/users/stepa/desktop/ospanel/modules/php/PHP-5.5;c:/users/stepa/desktop/ospanel/modules/php/PHP-5.5/PEAR/pear') в C:\Users\Stepa\Desktop\OSPanel\domains\OriginKharkiv\wp-includes\template.php на строке 688
+
+2019-01-14T15:52:36+00:00 CRITICAL syntax error, unexpected ''flex-height'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' в C:\Users\Stepa\Desktop\OSPanel\domains\OriginKharkiv\wp-content\themes\kharkivshop\inc\functions\setup.php на строке 209
+

@@ -1,0 +1,49 @@
+/*
+ * Customizer stylesheet
+ */
+.home .home-banners,
+.home #latest,
+.home #services,
+.home #ribbon,
+.home #categories,
+.home .shortcodes,
+.home .home-product-slider,
+.page-template-template-about .module:not(.page-header-module):not(.about-page-video) {
+	position: relative;
+}
+
+.home .home-banners::before,
+.home #latest::before,
+.home #services::before,
+.home #ribbon::before,
+.home #categories::before,
+.home .shortcodes::before,
+.home .home-product-slider::before,
+.page-template-template-about .module:not(.page-header-module):not(.about-page-video)::before {
+	position: absolute;
+	z-index: 100;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	border: 2px dashed rgba(121, 121, 121, 0.22);
+	content: " ";
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	pointer-events: none;
+}
+
+.home .home-banners:hover::before,
+.home #latest:hover::before,
+.home #services:hover::before,
+.home #ribbon:hover::before,
+.home #categories:hover::before,
+.home .shortcodes:hover::before,
+.home .home-product-slider:hover::before,
+.page-template-template-about .module:not(.page-header-module):not(.about-page-video):hover::before {
+	border-color: #00a0d0;
+}
+
+.KharkivShop-hide-section-shortcut {
+	top: 10px;
+}

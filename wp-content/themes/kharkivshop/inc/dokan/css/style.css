@@ -1,0 +1,48 @@
+.dokan-dashboard .blog-post-wrapper .container {
+	width: 100%;
+	padding: 0;
+}
+
+.dokan-dashboard .blog-post-wrapper .section {
+	padding: 0;
+}
+
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.products {
+	padding: 0;
+}
+
+.dokan-dashboard .dokan-dashboard-content {
+	padding: 25px;
+}
+
+.dokan-dashboard.woocommerce.single-product .section {
+	padding-bottom: 0;
+}
+
+.dokan-dashboard section.module:nth-child(2) {
+	padding-bottom: 0;
+}
+
+.dokan-dashboard .bottom-page-wrap {
+	margin-top: 130px;
+}
+
+.dokan-widget-area .widget ul li:before {
+	display: none;
+}
+
+.dokan-widget-area .widget {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+	div#dokan-secondary {
+		width: 100%;
+		padding: 30px;
+	}
+
+	div#dokan-primary {
+		width: 100%;
+		padding: 30px;
+	}
+}

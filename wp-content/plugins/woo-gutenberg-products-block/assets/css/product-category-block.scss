@@ -1,0 +1,69 @@
+// Import the woocommerce components stylesheet
+// @todo Move this to a separate file so we can build a cacheable single stylesheet for all blocks.
+@import "../../node_modules/@woocommerce/components/build-style/style.css";
+
+// Hack to hide preview overflow.
+.editor-block-preview__content {
+	overflow: hidden;
+}
+
+.wc-block-products-category {
+	overflow: hidden;
+
+	&.components-placeholder {
+		padding: 2em 1em;
+	}
+
+	.editor-block-preview & {
+		min-width: 5em;
+
+		.wc-product-preview__title,
+		.wc-product-preview__price,
+		.wc-product-preview__add-to-cart {
+			font-size: 0.6em;
+		}
+
+		&.cols-2 {
+			min-width: 2 * 5em;
+		}
+		&.cols-3 {
+			min-width: 3 * 5em;
+		}
+		&.cols-4 {
+			min-width: 4 * 5em;
+		}
+		&.cols-5 {
+			min-width: 5 * 5em;
+		}
+		&.cols-6 {
+			min-width: 6 * 5em;
+		}
+
+		&.is-loading,
+		&.is-not-found {
+			min-width: auto;
+		}
+	}
+}
+
+.wc-block-products-category__selection {
+	width: 100%;
+}
+
+.components-panel {
+	.woocommerce-search-list {
+		padding: 0;
+	}
+	.woocommerce-search-list__selected {
+		margin: 0 0 $gap;
+		padding: 0;
+		border-top: none;
+		// 54px is the height of 1 row of tags in the sidebar.
+		min-height: 54px;
+	}
+	.woocommerce-search-list__search {
+		margin: 0 0 $gap;
+		padding: 0;
+		border-top: none;
+	}
+}
